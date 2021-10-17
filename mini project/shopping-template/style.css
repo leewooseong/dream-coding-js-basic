@@ -1,0 +1,82 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--color-black);
+}
+header {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.menu img:hover {
+  width: 80px;
+  height: 80px;
+  margin: 0px;
+}
+
+.menu .button {
+  width: 80px;
+  height: 60px;
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+.menu .button:hover {
+  width: 100px;
+  height: 80px;
+  margin: 0px;
+}
+
+.blue_button {
+  background-color: var(--color-blue);
+}
+.yellow_button {
+  background-color: var(--color-yellow);
+}
+.pink_button {
+  background-color: var(--color-pink);
+}
+
+* {
+  box-sizing: border-box;
+}
